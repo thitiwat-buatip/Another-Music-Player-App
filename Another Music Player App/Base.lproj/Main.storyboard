@@ -321,6 +321,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bar" destination="xug-pW-bzq" id="RHU-hB-mx9"/>
                         <outlet property="nameSong" destination="Gyd-63-ZgH" id="glZ-06-JvS"/>
                         <outlet property="songPic" destination="Dx9-QC-GAk" id="zCH-lM-Dr4"/>
                         <outlet property="value" destination="Kwd-Sz-VF4" id="lsg-zc-leN"/>

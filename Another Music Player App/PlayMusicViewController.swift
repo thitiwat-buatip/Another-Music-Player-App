@@ -18,6 +18,8 @@ class PlayMusicViewController: UIViewController {
     
     @IBOutlet weak var value: UISlider!
     
+    @IBOutlet weak var bar: UINavigationBar!
+    
      var player = AVAudioPlayer()
     
     override func viewDidLoad() {
@@ -27,7 +29,7 @@ class PlayMusicViewController: UIViewController {
         nameSong.text = passData
         
         songPic.image = UIImage(named: passData)
-        navigationItem.title = passData
+        bar.topItem?.title = passData
         
         let audioPath = Bundle.main.path(forResource: passData, ofType: "mp3")
         
