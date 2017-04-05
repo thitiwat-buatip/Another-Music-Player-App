@@ -12,6 +12,20 @@
 		400B1F451E82610E0093675A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B1F431E82610E0093675A /* Main.storyboard */; };
 		400B1F471E82610E0093675A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400B1F461E82610E0093675A /* Assets.xcassets */; };
 		400B1F4A1E82610E0093675A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B1F481E82610E0093675A /* LaunchScreen.storyboard */; };
+		40A58FA81E9498B00097176A /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A58FA71E9498B00097176A /* SongListViewController.swift */; };
+		40A58FAC1E949C0A0097176A /* songTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A58FAB1E949C0A0097176A /* songTableViewCell.swift */; };
+		40A58FAE1E949FFF0097176A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A58FAD1E949FFF0097176A /* ProfileViewController.swift */; };
+		40A58FB01E94A26D0097176A /* PlayMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A58FAF1E94A26D0097176A /* PlayMusicViewController.swift */; };
+		40A58FBC1E94A9060097176A /* BlowYourMind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FB21E94A9060097176A /* BlowYourMind.mp3 */; };
+		40A58FBD1E94A9060097176A /* ColdWater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FB31E94A9060097176A /* ColdWater.mp3 */; };
+		40A58FBE1E94A9060097176A /* ComeToMe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FB41E94A9060097176A /* ComeToMe.mp3 */; };
+		40A58FBF1E94A9060097176A /* Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FB51E94A9060097176A /* Hello.mp3 */; };
+		40A58FC01E94A9060097176A /* KeepitMello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FB61E94A9060097176A /* KeepitMello.mp3 */; };
+		40A58FC21E94A9060097176A /* OneNightOnly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FB81E94A9060097176A /* OneNightOnly.mp3 */; };
+		40A58FC31E94A9060097176A /* ThinkingAboutYou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FB91E94A9060097176A /* ThinkingAboutYou.mp3 */; };
+		40A58FC41E94A9060097176A /* Wants.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FBA1E94A9060097176A /* Wants.mp3 */; };
+		40A58FC51E94A9060097176A /* WhereThemGirlsAt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FBB1E94A9060097176A /* WhereThemGirlsAt.mp3 */; };
+		40A58FC71E94B08D0097176A /* LoveOnMe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40A58FC61E94B08D0097176A /* LoveOnMe.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		400B1F461E82610E0093675A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400B1F491E82610E0093675A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400B1F4B1E82610E0093675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A58FA71E9498B00097176A /* SongListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
+		40A58FAB1E949C0A0097176A /* songTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = songTableViewCell.swift; sourceTree = "<group>"; };
+		40A58FAD1E949FFF0097176A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		40A58FAF1E94A26D0097176A /* PlayMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMusicViewController.swift; sourceTree = "<group>"; };
+		40A58FB21E94A9060097176A /* BlowYourMind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BlowYourMind.mp3; sourceTree = "<group>"; };
+		40A58FB31E94A9060097176A /* ColdWater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ColdWater.mp3; sourceTree = "<group>"; };
+		40A58FB41E94A9060097176A /* ComeToMe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ComeToMe.mp3; sourceTree = "<group>"; };
+		40A58FB51E94A9060097176A /* Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hello.mp3; sourceTree = "<group>"; };
+		40A58FB61E94A9060097176A /* KeepitMello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KeepitMello.mp3; sourceTree = "<group>"; };
+		40A58FB81E94A9060097176A /* OneNightOnly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OneNightOnly.mp3; sourceTree = "<group>"; };
+		40A58FB91E94A9060097176A /* ThinkingAboutYou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ThinkingAboutYou.mp3; sourceTree = "<group>"; };
+		40A58FBA1E94A9060097176A /* Wants.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wants.mp3; sourceTree = "<group>"; };
+		40A58FBB1E94A9060097176A /* WhereThemGirlsAt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhereThemGirlsAt.mp3; sourceTree = "<group>"; };
+		40A58FC61E94B08D0097176A /* LoveOnMe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LoveOnMe.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +84,24 @@
 			children = (
 				400B1F3F1E82610E0093675A /* AppDelegate.swift */,
 				400B1F411E82610E0093675A /* ViewController.swift */,
+				40A58FA71E9498B00097176A /* SongListViewController.swift */,
+				40A58FAD1E949FFF0097176A /* ProfileViewController.swift */,
+				40A58FAB1E949C0A0097176A /* songTableViewCell.swift */,
+				40A58FAF1E94A26D0097176A /* PlayMusicViewController.swift */,
 				400B1F431E82610E0093675A /* Main.storyboard */,
 				400B1F461E82610E0093675A /* Assets.xcassets */,
 				400B1F481E82610E0093675A /* LaunchScreen.storyboard */,
 				400B1F4B1E82610E0093675A /* Info.plist */,
+				40A58FB21E94A9060097176A /* BlowYourMind.mp3 */,
+				40A58FC61E94B08D0097176A /* LoveOnMe.mp3 */,
+				40A58FB31E94A9060097176A /* ColdWater.mp3 */,
+				40A58FB41E94A9060097176A /* ComeToMe.mp3 */,
+				40A58FB51E94A9060097176A /* Hello.mp3 */,
+				40A58FB61E94A9060097176A /* KeepitMello.mp3 */,
+				40A58FB81E94A9060097176A /* OneNightOnly.mp3 */,
+				40A58FB91E94A9060097176A /* ThinkingAboutYou.mp3 */,
+				40A58FBA1E94A9060097176A /* Wants.mp3 */,
+				40A58FBB1E94A9060097176A /* WhereThemGirlsAt.mp3 */,
 			);
 			path = "Another Music Player App";
 			sourceTree = "<group>";
@@ -124,9 +166,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A58FC51E94A9060097176A /* WhereThemGirlsAt.mp3 in Resources */,
+				40A58FC41E94A9060097176A /* Wants.mp3 in Resources */,
+				40A58FC01E94A9060097176A /* KeepitMello.mp3 in Resources */,
+				40A58FC31E94A9060097176A /* ThinkingAboutYou.mp3 in Resources */,
+				40A58FBF1E94A9060097176A /* Hello.mp3 in Resources */,
 				400B1F4A1E82610E0093675A /* LaunchScreen.storyboard in Resources */,
+				40A58FBC1E94A9060097176A /* BlowYourMind.mp3 in Resources */,
+				40A58FBD1E94A9060097176A /* ColdWater.mp3 in Resources */,
+				40A58FC71E94B08D0097176A /* LoveOnMe.mp3 in Resources */,
 				400B1F471E82610E0093675A /* Assets.xcassets in Resources */,
+				40A58FC21E94A9060097176A /* OneNightOnly.mp3 in Resources */,
 				400B1F451E82610E0093675A /* Main.storyboard in Resources */,
+				40A58FBE1E94A9060097176A /* ComeToMe.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A58FAC1E949C0A0097176A /* songTableViewCell.swift in Sources */,
 				400B1F421E82610E0093675A /* ViewController.swift in Sources */,
+				40A58FAE1E949FFF0097176A /* ProfileViewController.swift in Sources */,
 				400B1F401E82610E0093675A /* AppDelegate.swift in Sources */,
+				40A58FB01E94A26D0097176A /* PlayMusicViewController.swift in Sources */,
+				40A58FA81E9498B00097176A /* SongListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +358,7 @@
 				400B1F501E82610E0093675A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
